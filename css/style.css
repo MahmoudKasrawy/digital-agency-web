@@ -6,6 +6,25 @@
     --dark: #04000B;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #004b85;
+    border-radius: 10px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background:#012b5d;
+    cursor: pointer;
+}
 
 /*** Spinner ***/
 #spinner {
@@ -784,7 +803,7 @@ body {
 /*** Newsletter ***/
 .newsletter {
     margin: 6rem 0;
-  
+
 }
 
 
@@ -824,7 +843,7 @@ body {
 /*** Team ***/
 .img {
 
-    background-color:#116bb1 !important;
+    background-color: #116bb1 !important;
     padding: 50px;
     border-end-end-radius: 20px;
     border-top-left-radius: 40%;
@@ -857,10 +876,10 @@ body {
 
 /*** Footer ***/
 .footer {
-    margin-top:6rem;
+    margin-top: 6rem;
     padding-top: 9rem;
-    
-   
+
+
 }
 
 .footer .logo {
